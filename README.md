@@ -6,6 +6,8 @@ Programming Study
 - [Algorithm](#Algorithm)
     - [BinarySearch](#BinarySearch)
     - [MergeSort](#MergeSort)
+- [Animation](#Animation)
+    - [Core Graphic Transformation](#Core-Graphic-Transformation)
 
 ## Algorithm
 
@@ -21,3 +23,9 @@ Programming Study
 >정렬되어 있지 않은 배열이 있다.  
 >**[12, 3, 13, 111, 987, 71, 17, 22, 3, 89, 18, 12]**  
 >`MergeSort`를 활용하여 오름차순으로 정렬해 보자.
+
+## Animation
+
+### Core Graphic Transformation
+
+> Rotation, Translation, Scale, identity
