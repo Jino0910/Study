@@ -33,5 +33,5 @@ Programming Study
 
 ### dynamicMemberLookup
 
->동적으로 프로퍼티에 접근해보자.
+>동적으로 프로퍼티에 접근해보자.  
 >`class`, `struct`, `enum`, `protocol`에 사용 가능
