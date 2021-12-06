@@ -8,7 +8,8 @@ Programming Study
     - [MergeSort](#MergeSort)
 - [Swift](#Swift)
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
-    - [dynamicMemberLookup](#dynamicMemberLookup)
+    - [DynamicMemberLookup](#DynamicMemberLookup)
+    - [Will Set Blocks for Properties](#Will-Set-Blocks-for-Properties)
 
 ## Algorithm
 
@@ -31,7 +32,11 @@ Programming Study
 
 > Rotation, Translation, Scale, identity 활용
 
-### dynamicMemberLookup
+### DynamicMemberLookup
 
 >동적으로 프로퍼티에 접근해보자.  
 >`class`, `struct`, `enum`, `protocol`에 사용 가능
+
+### Will Set Blocks for Properties
+> **Property Observer**는 프로퍼티의 `값의 변화`를 관찰하고, 이에 응답합니다.
+> 프로퍼티의 값이 **반드시 초기화** 되어 있어야 합니다.
