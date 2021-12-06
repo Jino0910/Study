@@ -6,8 +6,9 @@ Programming Study
 - [Algorithm](#Algorithm)
     - [BinarySearch](#BinarySearch)
     - [MergeSort](#MergeSort)
-- [Animation](#Animation)
+- [Swift](#Swift)
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
+    - [dynamicMemberLookup](#dynamicMemberLookup)
 
 ## Algorithm
 
@@ -24,8 +25,13 @@ Programming Study
 >**[12, 3, 13, 111, 987, 71, 17, 22, 3, 89, 18, 12]**  
 >`MergeSort`를 활용하여 오름차순으로 정렬해 보자.
 
-## Animation
+## Swift
 
 ### Core Graphic Transformation
 
-> Rotation, Translation, Scale, identity
+> Rotation, Translation, Scale, identity 활용
+
+### dynamicMemberLookup
+
+>동적으로 프로퍼티에 접근해보자.
+>`class`, `struct`, `enum`, `protocol`에 사용 가능
