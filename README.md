@@ -9,6 +9,7 @@ Programming Study
 - [Swift](#Swift)
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
     - [CollectionView Context Menus](#CollectionView-Context-Menus)
+    - [PropertyWrapper](#PropertyWrapper)
     - [DynamicMemberLookup](#DynamicMemberLookup)
     - [Will Set Blocks for Properties](#Will-Set-Blocks-for-Properties)
     - [Reflection Mirror](#Reflection-Mirror)
@@ -33,8 +34,12 @@ Programming Study
 > Rotation, Translation, Scale, identity 활용
 
 ### CollectionView Context Menus
-> **Peek and Pop**: 상세 보기 컨트롤러에서 콘텐츠를 미리 볼 수 있는 프리뷰를 제공합니다  
+> **Peek and Pop**: 상세 보기 컨트롤러에서 콘텐츠를 미리 볼 수 있는 프리뷰를 제공합니다.  
 > iOS13+
+
+### PropertyWrapper
+> `@propertyWrapper`를 붙여 프로퍼티 단위로 특정 행동(비지니스 로직)을 하도록 정의할 수 있습니다.  
+>`class`, `struct`, `enum`에 사용 가능(프로퍼티를 가질 수 있는 타입)
 
 ### DynamicMemberLookup
 >동적으로 프로퍼티에 접근해보자.  
@@ -45,6 +50,6 @@ Programming Study
 > 프로퍼티의 값이 **반드시 초기화** 되어 있어야 합니다.
 
 ### Reflection Mirror
-> **struct**입니다  
+> **struct**입니다.  
 > Mirror는 인스턴스의 `stored property`, `collection`, `tuple element`, `active enumeration case`와 같이 특정 인스턴스를 구성하는 부분(parts)을 설명한다고 합니다.
 
