@@ -41,7 +41,7 @@ Programming Study
 > **Peek and Pop**: 상세 보기 컨트롤러에서 콘텐츠를 미리 볼 수 있는 프리뷰를 제공합니다.  
 > iOS13+
 
-### [Expandable TableView Cells (Collapsable)]()
+### [Expandable TableView Cells (Collapsable)](https://github.com/Jino0910/Study/blob/master/Swift/ExpandableTableViewCells/ExpandableTableViewCells/ViewController.swift)
 > Expandable TableView Cells Sample
 
 ### [PropertyWrapper](https://github.com/Jino0910/Study/blob/master/Swift/SwiftPropertyWrappers.playground/Contents.swift)
@@ -66,7 +66,7 @@ Programming Study
 ## DesignPattern
 
 ### [MVVM](https://github.com/Jino0910/Study/tree/master/DesignPattern/MVVM/MVVM)
-> **데이터바이딩**을 통해 View와 ViewModel은 1:n 관계를 가질 수 있습니다.    
+> **데이터바인딩**을 통해 View와 ViewModel은 1:n 관계를 가질 수 있습니다.    
 > 모듈별 **의존성**이 없어집니다.  
 > **유닛테스트**가 용이합니다.
 
