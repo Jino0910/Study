@@ -13,6 +13,7 @@ Programming Study
     - [DynamicMemberLookup](#DynamicMemberLookup)
     - [Will Set Blocks for Properties](#Will-Set-Blocks-for-Properties)
     - [Reflection Mirror](#Reflection-Mirror)
+    - [Dependency Injection](#Dependency-Injection)
     
 
 ## Algorithm
@@ -52,4 +53,7 @@ Programming Study
 ### Reflection Mirror
 > **struct**입니다.  
 > Mirror는 인스턴스의 `stored property`, `collection`, `tuple element`, `active enumeration case`와 같이 특정 인스턴스를 구성하는 부분(parts)을 설명한다고 합니다.
+
+### Dependency Injection
+> Project Targer 분리 및 의존성 주입
 
