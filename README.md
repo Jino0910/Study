@@ -61,11 +61,11 @@ Programming Study
 
 ## DesignPattern
 
-### MVVM
-> 데이터 바이딩을 통해 View와 ViewModel은 1:n 관계를 가질 수 있습니다.    
-> 모듈별 의존성이 없어집니다.  
-> 유닛테스트가 용이합니다.
+### [MVVM](https://github.com/Jino0910/Study/tree/master/DesignPattern/MVVM/MVVM)
+> **데이터바이딩**을 통해 View와 ViewModel은 1:n 관계를 가질 수 있습니다.    
+> 모듈별 **의존성**이 없어집니다.  
+> **유닛테스트**가 용이합니다.
 
-### ReactorKit
-> ReactorKit은 반응형 및 단방향 Swift 애플리케이션 아키텍처를 위한 프레임워크입니다.  
-> ViewModel 역할을 Reactor가 하는데 이 ViewModel에서 일어나는 반응형 이벤트들을 액션(In Property)과 상태(Out Property)로 나눈 것입니다
+### [ReactorKit](https://github.com/Jino0910/Study/tree/master/DesignPattern/ReactorKit/ReactorKit)
+> **ReactorKit**은 `반응형` 및 `단방향` Swift 애플리케이션 아키텍처를 위한 프레임워크입니다.  
+> **ViewModel** 역할을 **Reactor**가 하는데 이 **ViewModel**에서 일어나는 반응형 이벤트들을 `액션(In Property)`과 `상태(Out Property)`로 나눈 것입니다
