@@ -45,6 +45,7 @@ class ViewModel{
                     self.output.errorMessage.accept("6자리 이상 비밀번호를 입력해주세요.")
                 } else {
                     // API 태우기
+                    
                     self.output.goToMain.accept(())
                 }
             }
