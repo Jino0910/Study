@@ -18,6 +18,7 @@ Programming Study
 - [DesignPattern](#DesignPattern)    
     - [MVVM](#MVVM)
     - [ReactorKit](#ReactorKit)
+    - [Coordinator](#Coordinator)
 
 ## Algorithm
 
@@ -73,3 +74,6 @@ Programming Study
 ### [ReactorKit](https://github.com/Jino0910/Study/tree/master/DesignPattern/ReactorKit/ReactorKit)
 > **ReactorKit**은 `반응형` 및 `단방향` Swift 애플리케이션 아키텍처를 위한 프레임워크입니다.  
 > **ViewModel** 역할을 **Reactor**가 하는데 이 **ViewModel**에서 일어나는 반응형 이벤트들을 `액션(In Property)`과 `상태(Out Property)`로 나눈 것입니다
+
+### Coordinator
+> So what is a coordinator? **A coordinator is an object that bosses one or more view controllers around.** Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome.
