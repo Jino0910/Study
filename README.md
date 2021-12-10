@@ -10,6 +10,7 @@ Programming Study
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
     - [CollectionView Context Menus](#CollectionView-Context-Menus)
     - [Expandable TableView Cells (Collapsable)](#Expandable-TableView-Cells-(Collapsable))
+    - [StretchyTableHeaderView](#StretchyTableHeaderView)
     - [PropertyWrapper](#PropertyWrapper)
     - [DynamicMemberLookup](#DynamicMemberLookup)
     - [Will Set Blocks for Properties](#Will-Set-Blocks-for-Properties)
@@ -44,6 +45,9 @@ Programming Study
 
 ### [Expandable TableView Cells (Collapsable)](https://github.com/Jino0910/Study/blob/master/Swift/ExpandableTableViewCells/ExpandableTableViewCells/ViewController.swift)
 > Expandable TableView Cells Sample
+
+### [StretchyTableHeaderView]
+> Stretchy TableView Header in App
 
 ### [PropertyWrapper](https://github.com/Jino0910/Study/blob/master/Swift/SwiftPropertyWrappers.playground/Contents.swift)
 > `@propertyWrapper`를 붙여 프로퍼티 단위로 특정 행동(비지니스 로직)을 하도록 정의할 수 있습니다.  
