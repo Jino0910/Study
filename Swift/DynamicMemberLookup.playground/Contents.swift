@@ -17,8 +17,6 @@ let myThing = Thing()
 print(myThing.channel) // iOS Academy
 print(myThing.platform) // iOS
 
-
-
 @dynamicMemberLookup
 protocol Lookupable {
     subscript(dynamicMember member: String) -> String { get }
