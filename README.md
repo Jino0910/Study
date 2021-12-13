@@ -11,6 +11,7 @@ Programming Study
     - [CollectionView Context Menus](#CollectionView-Context-Menus)
     - [Expandable TableView Cells (Collapsable)](#Expandable-TableView-Cells-(Collapsable))
     - [StretchyTableHeaderView](#StretchyTableHeaderView)
+    - [SkeletonView](#SkeletonView)
     - [PropertyWrapper](#PropertyWrapper)
     - [DynamicMemberLookup](#DynamicMemberLookup)
     - [Will Set Blocks for Properties](#Will-Set-Blocks-for-Properties)
@@ -51,6 +52,9 @@ Programming Study
 ### [StretchyTableHeaderView](https://github.com/Jino0910/Study/tree/master/Swift/StretchyTableViewHeader/StretchyTableViewHeader)
 > Stretchy TableView Header in App
 
+### SkeletonView
+> Skeleton Loading View in App(TableView, CollectionView)
+
 ### [PropertyWrapper](https://github.com/Jino0910/Study/blob/master/Swift/SwiftPropertyWrappers.playground/Contents.swift)
 > `@propertyWrapper`를 붙여 프로퍼티 단위로 특정 행동(비지니스 로직)을 하도록 정의할 수 있습니다.  
 >`class`, `struct`, `enum`에 사용 가능(프로퍼티를 가질 수 있는 타입)
@@ -87,6 +91,6 @@ Programming Study
 ### [Coordinator](https://github.com/Jino0910/Study/tree/master/DesignPattern/CoordinatorPattern/CoordinatorPattern)
 > So what is a coordinator? **A coordinator is an object that bosses one or more view controllers around.** Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome.
 
-### Generics
+### [Generics](https://github.com/Jino0910/Study/blob/master/Swift/Generics/Generics/ViewController.swift)
 > **유연**하게 작성할 수 있고, **재사용**가능한 함수와 타입이 어떤 타입과 작업할 수 있도록 요구사항을 정의한다.  
 > **중복**을 피하고 의도를 명확하게 표현하고, 추상적인 방법으로 코드를 작성할 수 있다.
