@@ -17,6 +17,7 @@ Programming Study
     - [Reflection Mirror](#Reflection-Mirror)
     - [Dependency Injection](#Dependency-Injection)
     - [DispatchQueue](#DispatchQueue)
+    - [Generics](#Generics)
 - [DesignPattern](#DesignPattern)    
     - [MVVM](#MVVM)
     - [ReactorKit](#ReactorKit)
@@ -85,3 +86,7 @@ Programming Study
 
 ### [Coordinator](https://github.com/Jino0910/Study/tree/master/DesignPattern/CoordinatorPattern/CoordinatorPattern)
 > So what is a coordinator? **A coordinator is an object that bosses one or more view controllers around.** Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome.
+
+### Generics
+> **유연**하게 작성할 수 있고, **재사용**가능한 함수와 타입이 어떤 타입과 작업할 수 있도록 요구사항을 정의한다.  
+> **중복**을 피하고 의도를 명확하게 표현하고, 추상적인 방법으로 코드를 작성할 수 있다.
