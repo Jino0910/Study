@@ -8,6 +8,7 @@ Programming Study
     - [MergeSort](#MergeSort)
     - [SelectionSort](#SelectionSort)
     - [BubbleSort](#BubbleSort)
+    - [SpecialSort](#SpecialSort)
 - [Swift](#Swift)
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
     - [CollectionView Context Menus](#CollectionView-Context-Menus)
@@ -47,12 +48,20 @@ Programming Study
 >`SelectionSort`를 활용하여 오름차순으로 정렬해 보자.
 > 시간복잡도: `O(n^2)`
 > Inplace Algorithm(메모리 사용적음)
-> UnStable Sort(같은 value에 대해서 Stable하지 않음)
+> UnStable Sort(비교하는 값이 같을때 Stable하지 않음)
 
 ### [BubbleSort](https://github.com/Jino0910/Study/blob/master/Algorithm/BubbleSort.playground/Contents.swift)
 >정렬되어 있지 않은 배열이 있다.  
 >**[13, 5, 11, 7, 23, 15]**  
->`SelectionSort`를 활용하여 오름차순으로 정렬해 보자.
+>`BubbleSort`를 활용하여 오름차순으로 정렬해 보자.
+> 시간복잡도: `O(n^2)`
+> Inplace Algorithm(메모리 사용적음)
+> Stable Sort
+
+### [SpecialSort](https://github.com/Jino0910/Study/blob/master/Algorithm/SpecialSort.playground/Contents.swift)
+>정렬되어 있지 않은 배열이 있다.  
+>**[13, 5, 11, 7, 23, 15]**  
+>`SpecialSort`를 활용하여 오름차순으로 정렬해 보자.(`BubbleSort`을 응용하자.)
 > 시간복잡도: `O(n^2)`
 > Inplace Algorithm(메모리 사용적음)
 > Stable Sort
