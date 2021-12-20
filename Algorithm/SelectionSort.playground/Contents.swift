@@ -2,20 +2,20 @@ import UIKit
 
 func solution(array: [Int]) -> [Int] {
     
-    var input = input
+    var array = array
     
-    for i in 0..<input.count-1 {
+    for i in 0..<array.count-1 {
         var minimumIndex: Int = i
         
-        for j in i+1..<input.count {
-            if input[j] < input[minimumIndex] {
+        for j in i+1..<array.count {
+            if array[j] < array[minimumIndex] {
                 minimumIndex = j
             }
         }
-        input.swapAt(i, minimumIndex)
+        array.swapAt(i, minimumIndex)
     }
     
-    return input
+    return array
 }
 
 let array = [13, 5, 11, 7, 23, 15]

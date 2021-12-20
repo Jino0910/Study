@@ -7,6 +7,7 @@ Programming Study
     - [BinarySearch](#BinarySearch)
     - [MergeSort](#MergeSort)
     - [SelectionSort](#SelectionSort)
+    - [BubbleSort](#BubbleSort)
 - [Swift](#Swift)
     - [Core Graphic Transformation](#Core-Graphic-Transformation)
     - [CollectionView Context Menus](#CollectionView-Context-Menus)
@@ -45,6 +46,16 @@ Programming Study
 >**[13, 5, 11, 7, 23, 15]**  
 >`SelectionSort`를 활용하여 오름차순으로 정렬해 보자.
 > 시간복잡도: `O(n^2)`
+> Inplace Algorithm(메모리 사용적음)
+> UnStable Sort(같은 value에 대해서 Stable하지 않음)
+
+### [BubbleSort](https://github.com/Jino0910/Study/blob/master/Algorithm/BubbleSort.playground/Contents.swift)
+>정렬되어 있지 않은 배열이 있다.  
+>**[13, 5, 11, 7, 23, 15]**  
+>`SelectionSort`를 활용하여 오름차순으로 정렬해 보자.
+> 시간복잡도: `O(n^2)`
+> Inplace Algorithm(메모리 사용적음)
+> Stable Sort
 
 ## Swift
 
@@ -103,3 +114,4 @@ Programming Study
 
 ### [Coordinator](https://github.com/Jino0910/Study/tree/master/DesignPattern/CoordinatorPattern/CoordinatorPattern)
 > So what is a coordinator? **A coordinator is an object that bosses one or more view controllers around.** Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome.
+
