@@ -19,6 +19,7 @@ Programming Study
     - [Dependency Injection](#Dependency-Injection)
     - [DispatchQueue](#DispatchQueue)
     - [Generics](#Generics)
+    - NSAttachment
 - [DesignPattern](#DesignPattern)    
     - [MVVM](#MVVM)
     - [ReactorKit](#ReactorKit)
@@ -76,6 +77,9 @@ Programming Study
 
 ### [DispatchQueue](https://github.com/Jino0910/Study/blob/master/Swift/iOSConcurrency/iOSConcurrency/ViewController.swift)
 > iOS `Concurrency` & `Threading`
+
+### NSAttachment
+> NSTextAttachments with attributed strings
 
 ## DesignPattern
 
