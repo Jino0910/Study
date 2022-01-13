@@ -116,14 +116,13 @@ Programming Study
 ### [DispatchQueue](https://github.com/Jino0910/Study/blob/master/Swift/iOSConcurrency/iOSConcurrency/ViewController.swift)
 > iOS `Concurrency` & `Threading`
 
-<<<<<<< HEAD
 ### [Generics](https://github.com/Jino0910/Study/blob/master/Swift/Generics/Generics/ViewController.swift)
 > **유연**하게 작성할 수 있고, **재사용**가능한 함수와 타입이 어떤 타입과 작업할 수 있도록 요구사항을 정의한다.  
 > **중복**을 피하고 의도를 명확하게 표현하고, 추상적인 방법으로 코드를 작성할 수 있다.
-=======
+
 ### NSAttachment
 > NSTextAttachments with attributed strings
->>>>>>> temp
+
 
 ## DesignPattern
 
