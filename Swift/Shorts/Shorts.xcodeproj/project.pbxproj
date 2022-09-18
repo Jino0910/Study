@@ -14,6 +14,13 @@
 		5F81501F28D5C16F00ABEC81 /* ShortsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81501E28D5C16F00ABEC81 /* ShortsTests.swift */; };
 		5F81502928D5C16F00ABEC81 /* ShortsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81502828D5C16F00ABEC81 /* ShortsUITests.swift */; };
 		5F81502B28D5C16F00ABEC81 /* ShortsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81502A28D5C16F00ABEC81 /* ShortsUITestsLaunchTests.swift */; };
+		5F81503828D5C3BD00ABEC81 /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 5F81503728D5C3BD00ABEC81 /* video.MOV */; };
+		5F81503B28D5C3DD00ABEC81 /* ShortsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81503A28D5C3DD00ABEC81 /* ShortsItem.swift */; };
+		5F81504028D5C6C700ABEC81 /* ShortsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81503F28D5C6C700ABEC81 /* ShortsListView.swift */; };
+		5F81504628D6278B00ABEC81 /* ShortsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81504528D6278B00ABEC81 /* ShortsViewModel.swift */; };
+		5F81504C28D6DE9A00ABEC81 /* PlayerListCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81504B28D6DE9A00ABEC81 /* PlayerListCollectionView.swift */; };
+		5F81504E28D716A500ABEC81 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81504D28D716A500ABEC81 /* HeaderView.swift */; };
+		5F81505028D718B300ABEC81 /* PlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81504F28D718B300ABEC81 /* PlayerViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,14 @@
 		5F81502428D5C16F00ABEC81 /* ShortsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F81502828D5C16F00ABEC81 /* ShortsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsUITests.swift; sourceTree = "<group>"; };
 		5F81502A28D5C16F00ABEC81 /* ShortsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F81503728D5C3BD00ABEC81 /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.MOV; sourceTree = "<group>"; };
+		5F81503A28D5C3DD00ABEC81 /* ShortsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsItem.swift; sourceTree = "<group>"; };
+		5F81503F28D5C6C700ABEC81 /* ShortsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsListView.swift; sourceTree = "<group>"; };
+		5F81504528D6278B00ABEC81 /* ShortsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsViewModel.swift; sourceTree = "<group>"; };
+		5F81504B28D6DE9A00ABEC81 /* PlayerListCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListCollectionView.swift; sourceTree = "<group>"; };
+		5F81504D28D716A500ABEC81 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5F81504F28D718B300ABEC81 /* PlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewCell.swift; sourceTree = "<group>"; };
+		5F81505128D71A7000ABEC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,12 @@
 		5F81500C28D5C16E00ABEC81 /* Shorts */ = {
 			isa = PBXGroup;
 			children = (
+				5F81505128D71A7000ABEC81 /* Info.plist */,
+				5F81503728D5C3BD00ABEC81 /* video.MOV */,
 				5F81500D28D5C16E00ABEC81 /* ShortsApp.swift */,
 				5F81500F28D5C16E00ABEC81 /* ContentView.swift */,
+				5F81503C28D5C4F900ABEC81 /* View */,
+				5F81503928D5C3CF00ABEC81 /* Model */,
 				5F81501128D5C16F00ABEC81 /* Assets.xcassets */,
 				5F81501328D5C16F00ABEC81 /* Preview Content */,
 			);
@@ -125,6 +144,42 @@
 				5F81502A28D5C16F00ABEC81 /* ShortsUITestsLaunchTests.swift */,
 			);
 			path = ShortsUITests;
+			sourceTree = "<group>";
+		};
+		5F81503928D5C3CF00ABEC81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F81503A28D5C3DD00ABEC81 /* ShortsItem.swift */,
+				5F81504528D6278B00ABEC81 /* ShortsViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F81503C28D5C4F900ABEC81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F81504128D60D0900ABEC81 /* UIKitViews */,
+				5F81504228D60D2000ABEC81 /* SwiftUIViews */,
+				5F81503F28D5C6C700ABEC81 /* ShortsListView.swift */,
+				5F81504D28D716A500ABEC81 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F81504128D60D0900ABEC81 /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				5F81504B28D6DE9A00ABEC81 /* PlayerListCollectionView.swift */,
+				5F81504F28D718B300ABEC81 /* PlayerViewCell.swift */,
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+		5F81504228D60D2000ABEC81 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUIViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F81501528D5C16F00ABEC81 /* Preview Assets.xcassets in Resources */,
+				5F81503828D5C3BD00ABEC81 /* video.MOV in Resources */,
 				5F81501228D5C16F00ABEC81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F81503B28D5C3DD00ABEC81 /* ShortsItem.swift in Sources */,
+				5F81505028D718B300ABEC81 /* PlayerViewCell.swift in Sources */,
+				5F81504C28D6DE9A00ABEC81 /* PlayerListCollectionView.swift in Sources */,
 				5F81501028D5C16E00ABEC81 /* ContentView.swift in Sources */,
+				5F81504E28D716A500ABEC81 /* HeaderView.swift in Sources */,
+				5F81504028D5C6C700ABEC81 /* ShortsListView.swift in Sources */,
 				5F81500E28D5C16E00ABEC81 /* ShortsApp.swift in Sources */,
+				5F81504628D6278B00ABEC81 /* ShortsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +482,7 @@
 				DEVELOPMENT_TEAM = NTXHJNM3LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shorts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +512,7 @@
 				DEVELOPMENT_TEAM = NTXHJNM3LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shorts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
